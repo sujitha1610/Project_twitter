@@ -17,7 +17,7 @@ app.use(cors({
 
 //connect mongodb with the help of mongoose
 
-mongoose.connect('mongodb+srv://raghuveer:12112002@cluster0.ljfmjg2.mongodb.net/?retryWrites=true&w=majority').then(
+mongoose.connect('mongodb+srv://react:react@react.goy1gcr.mongodb.net/').then(
     console.log("db is connected")
 );
 
